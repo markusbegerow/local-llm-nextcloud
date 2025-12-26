@@ -1,0 +1,93 @@
+/* Main app styles */
+#app-localllm {
+	width: 100%;
+	height: 100%;
+}
+
+/* Empty content styles */
+.empty-content {
+	margin-top: 20vh;
+}
+
+/* Loading indicator */
+.loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+/* Chat window specific styles */
+.chat-window {
+	height: 100%;
+}
+
+/* Message styles */
+.message {
+	animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Scrollbar styles for messages container */
+.messages-container::-webkit-scrollbar {
+	width: 8px;
+}
+
+.messages-container::-webkit-scrollbar-track {
+	background: var(--color-background-dark);
+	border-radius: 4px;
+}
+
+.messages-container::-webkit-scrollbar-thumb {
+	background: var(--color-border-dark);
+	border-radius: 4px;
+}
+
+.messages-container::-webkit-scrollbar-thumb:hover {
+	background: var(--color-border);
+}
+
+/* Button styles */
+button.primary {
+	background-color: var(--color-primary);
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+button.primary:hover:not(:disabled) {
+	background-color: var(--color-primary-element-dark);
+}
+
+button.primary:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+/* Form styles */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+	font-family: inherit;
+}
+
+/* Settings panel */
+.settings-section {
+	margin-bottom: 20px;
+}
+
+.settings-section h3 {
+	margin-bottom: 10px;
+}

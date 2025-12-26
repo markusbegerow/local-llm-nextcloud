@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>local-llm-nextcloud</id>
+    <name>Local LLM Chat for Nextcloud</name>
+    <summary>Integrate Local LLMs (Ollama, LM Studio) into Nextcloud for AI-powered assistance</summary>
+    <description><![CDATA[
+# Local LLM Integration for Nextcloud
+
+A powerful Nextcloud app that integrates local Large Language Models (LLMs) directly into your Nextcloud instance for AI-powered assistance.
+
+## Features
+
+### Privacy-First AI Integration
+- **All data stays on your server** - no cloud APIs required
+- Support for Ollama, LM Studio, vLLM, and OpenAI-compatible endpoints
+- Persistent conversation history stored in Nextcloud database
+- Real-time chat interface
+
+### Enterprise-Grade Security
+- API token encryption at rest using AES-256
+- CSRF protection on all endpoints
+- Rate limiting (configurable, default: 20 requests/minute)
+- Input validation and sanitization
+- User-level data isolation
+- Comprehensive audit logging
+
+### Core Functionality
+- Multiple LLM configurations (system-wide or user-specific)
+- Conversation history tracking
+- Configurable temperature, max tokens, and system prompts
+- Test connection tool
+- Support for multiple models
+
+## Use Cases
+- Product description generation
+- Email drafting assistance
+- Document summarization
+- Data analysis and insights
+- General productivity automation
+
+## Requirements
+- Nextcloud 28 or higher
+- PHP 8.1 or higher
+- Local LLM Server (Ollama, LM Studio, vLLM, or any OpenAI-compatible endpoint)
+    ]]></description>
+    <version>1.0.7</version>
+    <licence>gpl</licence>
+    <author mail="mail@markus-begerow.de">Markus Begerow</author>
+    <namespace>LocalLlm</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/markusbegerow/local-llm-nextcloud/issues</bugs>
+    <repository>https://github.com/markusbegerow/local-llm-nextcloud</repository>
+    <screenshot>https://raw.githubusercontent.com/markusbegerow/local-llm-nextcloud/main/screenshots/screenshot.png</screenshot>
+    <dependencies>
+        <nextcloud min-version="28" max-version="30"/>
+        <php min-version="8.1"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Local LLM for Nextcloud</name>
+            <route>local-llm-nextcloud.page.index</route>
+            <icon>app.svg</icon>
+        </navigation>
+    </navigations>
+</info>

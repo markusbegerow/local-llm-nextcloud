@@ -1,0 +1,48 @@
+{
+  "name": "local-llm-nextcloud",
+  "version": "1.0.0",
+  "description": "Local LLM integration for Nextcloud",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --ext .js,.vue src --fix",
+    "stylelint": "stylelint src/**/*.vue src/**/*.scss src/**/*.css",
+    "stylelint:fix": "stylelint src/**/*.vue src/**/*.scss src/**/*.css --fix"
+  },
+  "keywords": [
+    "nextcloud",
+    "llm",
+    "ai",
+    "chat"
+  ],
+  "author": "Markus Begerow",
+  "license": "GPL-2.0-only",
+  "dependencies": {
+    "@nextcloud/axios": "^2.4.0",
+    "@nextcloud/router": "^3.0.0",
+    "@nextcloud/vue": "^8.0.0",
+    "vue": "^2.7.14",
+    "vue-material-design-icons": "^5.3.1"
+  },
+  "browserslist": [
+    "extends @nextcloud/browserslist-config"
+  ],
+  "devDependencies": {
+    "@nextcloud/babel-config": "^1.0.0",
+    "@nextcloud/browserslist-config": "^3.0.0",
+    "@nextcloud/eslint-config": "^8.3.0",
+    "@nextcloud/stylelint-config": "^2.4.0",
+    "@nextcloud/webpack-vue-config": "^6.0.0",
+    "eslint": "^8.52.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "stylelint": "^15.11.0",
+    "stylelint-webpack-plugin": "^4.1.1"
+  },
+  "engines": {
+    "node": "^20.0.0",
+    "npm": "^10.0.0"
+  }
+}
