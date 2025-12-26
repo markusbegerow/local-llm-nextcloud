@@ -44,7 +44,7 @@ A powerful Nextcloud app that integrates local Large Language Models (LLMs) dire
 - PHP 8.1 or higher
 - Local LLM Server (Ollama, LM Studio, vLLM, or any OpenAI-compatible endpoint)
     ]]></description>
-    <version>1.0.7</version>
+    <version>1.0.0</version>
     <licence>gpl</licence>
     <author mail="mail@markus-begerow.de">Markus Begerow</author>
     <namespace>LocalLlm</namespace>
@@ -58,7 +58,7 @@ A powerful Nextcloud app that integrates local Large Language Models (LLMs) dire
     </dependencies>
     <navigations>
         <navigation>
-            <name>Local LLM for Nextcloud</name>
+            <name>Local LLM</name>
             <route>local-llm-nextcloud.page.index</route>
             <icon>app.svg</icon>
         </navigation>

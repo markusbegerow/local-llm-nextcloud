@@ -302,6 +302,11 @@ export default {
 	box-sizing: border-box;
 }
 
+.input-container textarea:focus {
+  outline: none;
+  border-color: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 .input-container button {
 	padding: 10px 20px;
 	white-space: nowrap;

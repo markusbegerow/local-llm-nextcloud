@@ -22,11 +22,3 @@ npm-debug.log*
 # Environment
 .env
 .env.local
-
-# Package manager lock files (keep package-lock.json but ignore yarn/pnpm)
-yarn.lock
-pnpm-lock.yaml
-
-# Testing
-coverage/
-.nyc_output/

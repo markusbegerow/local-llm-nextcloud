@@ -19,7 +19,7 @@
     "chat"
   ],
   "author": "Markus Begerow",
-  "license": "GPL-2.0-only",
+  "license": "AGPL-3.0-or-later",
   "dependencies": {
     "@nextcloud/axios": "^2.4.0",
     "@nextcloud/router": "^3.0.0",

@@ -4,11 +4,6 @@
 	height: 100%;
 }
 
-/* Empty content styles */
-.empty-content {
-	margin-top: 20vh;
-}
-
 /* Loading indicator */
 .loading {
 	display: flex;
