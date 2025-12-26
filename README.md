@@ -2,7 +2,7 @@
 
 A powerful Nextcloud app that integrates local Large Language Models (LLMs) directly into your Nextcloud instance for AI-powered assistance with enterprise-grade security.
 
-<img alt="Local LLM Chat Interface" src="https://github.com/user-attachments/assets/f33835ec-b666-4976-ac2c-a5b1d744de3a" />
+<img alt="Local LLM Chat Interface" src="https://github.com/user-attachments/assets/21fd6cc9-7f4d-4295-946e-cbf8344c1072" />
 
 ## Features
 
