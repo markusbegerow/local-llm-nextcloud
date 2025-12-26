@@ -51,7 +51,7 @@ A powerful Nextcloud app that integrates local Large Language Models (LLMs) dire
     <category>tools</category>
     <bugs>https://github.com/markusbegerow/local-llm-nextcloud/issues</bugs>
     <repository>https://github.com/markusbegerow/local-llm-nextcloud</repository>
-    <screenshot>https://raw.githubusercontent.com/markusbegerow/local-llm-nextcloud/main/screenshots/screenshot.png</screenshot>
+    <screenshot>https://github.com/user-attachments/assets/21fd6cc9-7f4d-4295-946e-cbf8344c1072</screenshot>
     <dependencies>
         <nextcloud min-version="28" max-version="30"/>
         <php min-version="8.1"/>
