@@ -146,10 +146,9 @@ export default {
 	position: relative !important;
 }
 
-/* Make navigation sidebar wider */
-#localllm-app .app-navigation {
+/* Make navigation sidebar wider when open */
+#localllm-app .app-navigation:not(.app-navigation--close) {
 	width: 420px !important;
 	max-width: 420px !important;
-	min-width: 420px !important;
 }
 </style>
